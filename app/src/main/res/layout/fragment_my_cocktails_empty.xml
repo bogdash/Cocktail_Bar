@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyCocktailsEmptyFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/summer_holidays"
+        android:contentDescription="@string/devka" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="355dp"
+        android:fontFamily="@font/didact_gothic_regular"
+        android:text="@string/cocktails_title"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="434dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/didact_gothic_regular"
+            android:gravity="center|top"
+            android:paddingStart="5dp"
+            android:text="@string/add_title"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/arrow_1" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/add_button"
+            android:src="@drawable/group_1" />
+    </LinearLayout>
+</FrameLayout>
