@@ -6,4 +6,17 @@
     <string name="cocktails_title">My cocktails</string>
     <string name="add_title">Add your first cocktail here</string>
     <string name="add_button">Add cocktail</string>
+    <!-- Create Cocktails fragment -->
+    <string name="title_cocktail">Title</string>
+    <string name="add_title_cocktail">Add title</string>
+    <string name="description_cocktail">Description</string>
+    <string name="ingredients_cocktail">Ingredients</string>
+    <string name="recipe_cocktail">Recipe</string>
+    <string name="optional_field_cocktail">Optional field</string>
+    <string name="save_cocktail">Save</string>
+    <string name="cancel_cocktail">Cancel</string>
+    <string name="image_cocktail">Cocktail image</string>
+    <string name="cocktail_name">Cocktail name</string>
+    <string name="description">Description</string>
+    <string name="optional_field">Optional field</string>
 </resources>
