@@ -11,7 +11,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
 
         <androidx.cardview.widget.CardView
             android:layout_width="216dp"
@@ -32,9 +34,8 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayoutCocktailName"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="385dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="40dp"
             android:hint="@string/title_cocktail"
             android:textColorHint="@color/grey"
@@ -55,9 +56,8 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayoutDescription"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="385dp"
+            android:layout_width="match_parent"
             android:layout_height="174dp"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:hint="@string/description"
             app:boxCornerRadiusBottomEnd="34dp"
@@ -74,17 +74,15 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewIngredients"
-            android:layout_width="385dp"
+            android:layout_width="match_parent"
             android:layout_height="24dp"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="24dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayoutRecipe"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="385dp"
+            android:layout_width="match_parent"
             android:layout_height="174dp"
-            android:layout_marginStart="16dp"
             android:hint="@string/recipe_cocktail"
             app:boxCornerRadiusBottomEnd="34dp"
             app:boxCornerRadiusBottomStart="34dp"
@@ -100,9 +98,8 @@
 
         <Button
             android:id="@+id/buttonSave"
-            android:layout_width="385dp"
+            android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/button_color_blue"
             android:fontFamily="@font/didact_gothic_regular"
@@ -112,9 +109,8 @@
         <Button
             android:id="@+id/buttonCancel"
             style="?materialButtonOutlinedStyle"
-            android:layout_width="385dp"
+            android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="26dp"
             android:backgroundTint="@color/white"
