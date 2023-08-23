@@ -16,6 +16,7 @@
         android:paddingEnd="16dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewImageCocktail"
             android:layout_width="216dp"
             android:layout_height="204dp"
             android:layout_gravity="center"
